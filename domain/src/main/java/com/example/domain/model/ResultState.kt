@@ -1,4 +1,4 @@
-package com.example.domain.entities
+package com.example.domain.model
 
 sealed class ResultState<T> {
     class Loading<T> : ResultState<T>()

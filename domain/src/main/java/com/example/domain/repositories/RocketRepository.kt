@@ -1,7 +1,7 @@
 package com.example.domain.repositories
 
-import com.example.domain.entities.ResultState
-import com.example.domain.entities.Rocket
+import com.example.domain.model.ResultState
+import com.example.domain.model.Rocket
 import io.reactivex.Observable
 
 interface RocketRepository {

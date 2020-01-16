@@ -1,8 +1,8 @@
-package com.example.domain.entities
+package com.example.domain.model
 
 data class Rocket(
     val name: String,
-    val image: String,
+    val imageUrl: String?,
     val country: String,
     val numberOfEngines: Short
 )

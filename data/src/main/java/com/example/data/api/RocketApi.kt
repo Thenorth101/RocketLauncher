@@ -6,6 +6,6 @@ import retrofit2.http.GET
 
 interface RocketApi {
 
-    @GET("/v3/rockets")
+    @GET("v3/rockets")
     fun getRocketList():Single<List<ApiRocket>>
 }
